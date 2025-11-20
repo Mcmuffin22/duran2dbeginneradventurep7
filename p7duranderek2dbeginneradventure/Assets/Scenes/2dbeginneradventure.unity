@@ -226,14 +226,47 @@ MonoBehaviour:
     m_Id: 822312ec-db3d-4661-8266-e8835433b688
     m_Processors: 
     m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  MoveAction:
+    m_Name: Move
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: ebcd2fc9-8f01-41c6-adbd-d7276f53adfa
+    m_Processors: 
+    m_Interactions: 
     m_SingletonActionBindings:
     - m_Name: 
-      m_Id: a8bbffb2-aa39-482f-ab8a-14f7ee8d0bea
+      m_Id: 4b7a191c-a518-4280-83d1-063a493c36b0
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 2dbc597b-6356-4bbf-8b2f-5c2837629b51
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 9c48e1ff-c443-48a9-ad20-6c5b893c757d
       m_Path: <Keyboard>/leftArrow
       m_Interactions: 
       m_Processors: 
       m_Groups: 
-      m_Action: Left
+      m_Action: Move
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 7d502531-bc35-4f4c-b3d0-89b308012d3e
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Move
       m_Flags: 0
     m_Flags: 0
 --- !u!1 &200334263
@@ -426,7 +459,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 9ad696b1b257460448ab22f87449f84c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     public InputAction LeftAction;
+    public InputAction MoveAction;
 
+    
     // Start is called before the first frame update
     void Start()
     {
